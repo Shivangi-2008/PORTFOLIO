@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO stuff -->
+  <title>Shivangi | Frontend Developer</title>
+  <meta name="description" content="Portfolio of Shivangi Singh, a Frontend Developer from Jaunpur who currently learning Java Full stack. View my projects, resume and contact info." />
+  <meta name="keywords" content="Shivangi Singh, Frontend Developer, JAVA Full Stack Developer, Web Developer Portfolio" />
+  <meta name="author" content="Shivangi Singh" />
+
+  <!-- css file -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- fonts: Playfair Display for big headings, Inter for body/nav, JetBrains Mono for the small uppercase labels -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="header" id="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Shivangi<span>.Dev</span></a>
+
+      <!-- hamburger icon for mobile, JS will toggle the menu -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" class="github-icon" title="GitHub">
+            <svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+              1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+              0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27
+              2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82
+              1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01
+              2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-greet">Hi, my name is</p>
+      <h1 class="hero-name">Shivangi Singh.</h1>
+      <h2 class="hero-role">I build things for the web.</h2>
+      <p class="hero-text">
+        I'm a Frontend Developer based in Noida, India, mainly working with the
+        <strong>MERN stack</strong> (MongoDB, Express, React, Node.js). I'm also learning
+        AI &amp; ML and I like turning ideas into clean, working websites.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section id="about" class="about">
+    <p class="eyebrow">Introduction</p>
+    <h2 class="section-title">A little about me</h2>
+
+    <div class="about-container">
+      <div class="about-img">
+        <!-- replace this with your own photo, just keep same file name -->
+        <img src="Khushi_profile.jpeg" alt="Photo of Shivangi Singh" loading="lazy" />
+      </div>
+
+      <div class="about-text">
+        <p>
+          Hey there! I'm Shivangi, A Computer Science graduate from Veer Bahadur Singh Purvanchal University, Jaunpur. 
+          I enjoy building web applications and figuring out
+          how things work under the hood.
+        </p>
+        <p>
+          I mostly code in JavaScript and React, but I also work with Java and I'm currently
+          learning AI &amp; ML. Outside of coding I was the President of my college Coding Club,
+          where I helped organize workshops and coding events for other students.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION (grid of cards) ========== -->
+  <section id="skills" class="skills">
+    <p class="eyebrow">Toolkit</p>
+    <h2 class="section-title">What I work with</h2>
+
+    <div class="skills-grid" id="skillsGrid">
+      <!-- skill cards get created by javascript, see script.js -->
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section id="projects" class="projects">
+    <p class="eyebrow">Selected Work</p>
+    <h2 class="section-title">Things I've built</h2>
+
+    <div class="projects-grid" id="projectsGrid">
+      <!-- project cards get created by javascript, see script.js -->
+    </div>
+  </section>
+
+  <!-- ========== STATS SECTION ========== -->
+  <section class="stats">
+    <div class="stat-box">
+      <h3>3+</h3>
+      <p>Projects Built</p>
+    </div>
+    <div class="stat-box">
+      <h3>1</h3>
+      <p>Certification</p>
+    </div>
+    <div class="stat-box">
+      <h3>6</h3>
+      <p>Weeks Internship</p>
+    </div>
+    <div class="stat-box">
+      <h3>7.87</h3>
+      <p>CGPA</p>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE SECTION (timeline) ========== -->
+  <section id="experience" class="experience">
+    <p class="eyebrow">Experience</p>
+    <h2 class="section-title">Where I've worked</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">Aug 2025 &ndash; Sep 2025</span>
+          <h3>Front End Web Development Intern</h3>
+          <p class="timeline-sub">Edunet Foundation (in collaboration with AICTE &amp; IBM SkillsBuild) &middot; Remote</p>
+          <p class="timeline-desc">
+            Completed a 6-week virtual internship building front-end web pages and working through
+            guided project tasks under the IBM SkillsBuild program.
+          </p>
+        </div>
+      </div>
+
+      
+      <!-- to add more experience later, just copy one .timeline-item block above and edit the text -->
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION SECTION (timeline, same style as Experience) ========== -->
+  <section id="education" class="education">
+    <p class="eyebrow">Background</p>
+    <h2 class="section-title">Education &amp; certifications</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2025 &ndash; 2028</span>
+          <h3>BCA (Bachelor of Computer Application) </h3>
+          <p class="timeline-sub">Veer Bahabur Singh Purvanchal University, Jaunpur &middot; CGPA 7.32</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2024 &ndash; 2025</span>
+          <h3>Senior Secondary (XII)</h3>
+          <p class="timeline-sub">Walther Inter College, Jaunpur &middot; 74.6%</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">2022 &ndash; 2023</span>
+          <h3>Matriculation (X)</h3>
+          <p class="timeline-sub">Walther Inter College, Jaunpur &middot; 75.85%</p>
+        </div>
+      </div>
+
+      
+      <!-- to add more education/certifications later, just copy one .timeline-item block above and edit the text -->
+    </div>
+  </section>
+
+  <!-- ========== RESUME SECTION ========== -->
+  <section id="resume" class="resume">
+    <p class="eyebrow">Download</p>
+    <h2 class="section-title">My resume</h2>
+    <p class="section-subtitle">You can preview my resume below, or download the PDF directly.</p>
+
+    <div class="resume-container">
+      <!-- this shows the pdf right on the page, works in most browsers -->
+      <iframe
+        src="resume.pdf"
+        title="Shivang Kumar Singh Resume Preview"
+        class="resume-frame"
+        loading="lazy">
+        Your browser can't show the PDF preview.
+        <a href="resume.pdf">Click here to download the resume instead.</a>
+      </iframe>
+
+      <a href="resume.pdf" download class="btn btn-primary resume-download-btn">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section id="contact" class="contact">
+    <p class="eyebrow">Get In Touch</p>
+    <h2 class="section-title">Contact me</h2>
+    <p class="section-subtitle">
+      My inbox is always open. Whether you have a question, a project idea, or just want to say hi,
+      I'll try my best to get back to you!
+    </p>
+
+    <div class="contact-container">
+      <!--
+        This form sends real emails using FormSubmit (https://formsubmit.co) — a free
+        service that forwards form submissions to my inbox, no backend server needed.
+
+        IMPORTANT ONE-TIME STEP: the very first time this form is submitted, FormSubmit
+        sends an "activation" email to singhshivangi222203@gmail.com. I need to open that
+        email and click the confirm link — after that, every future submission goes
+        straight to the inbox (check spam folder just for that first activation email).
+      -->
+      <form id="contactForm" class="contact-form" action="https://formsubmit.co/singhshivangi222203@gmail.com" method="POST">
+        <!-- FormSubmit settings -->
+        <input type="hidden" name="_subject" value="New message from portfolio site!" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <!-- honeypot field to block spam bots, keep this hidden with CSS -->
+        <input type="text" name="_honey" style="display:none" />
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="formStatus" class="form-status"></p>
+      </form>
+
+      <div class="contact-info">
+        <p>You can also reach me directly:</p>
+        <p>📧 Email: <a href="mailto:singhshivangi222203@gmail.com">singhshivangi222203@gmail.com</a></p>
+        <p>📍 Location: Noida, Uttar Pradesh, India</p>
+
+        <div class="social-links">
+          <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p>Designed &amp; Built by Shivangi Singh</p>
+    <p>&copy; <span id="year"></span> All rights reserved.</p>
+  </footer>
+
+  <!-- floating buttons -->
+  <button id="backToTop" title="Back to top">↑</button>
+  <a href="#contact" class="lets-talk-btn">Let's talk &rarr;</a>
+
+  <script src="script.js"></script>
+
+  <!--
+    Google Analytics goes here (basic setup).
+    Just replace G-XXXXXXXXXX with your own Measurement ID from Google Analytics.
+    I commented it out so the site doesn't send fake data while testing.
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+  -->
+</body>
+</html>
