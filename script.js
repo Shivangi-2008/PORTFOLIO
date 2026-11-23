@@ -76,7 +76,7 @@ var projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     demoLink: "https://shivangi-2008.github.io/Tic-Tac-Toe/",
     githubLink: "https://github.com/Shivangi-2008/Tic-Tac-Toe"
-  },
+  }
 ];
 
 // ================================
