@@ -36,23 +36,47 @@ for (var s = 0; s < skills.length; s++) {
 // so it's easy to add/remove a project later
 // ================================
 var projects = [
+  {
+    title: "Resume Analyser",
+    category: "React",
+    shortDesc: "Analyse users resume and get ATS score and related Improvement.",
+    tags: ["React.js"],
+    demoLink: "https://shivangi-2008.github.io/RESUME-ANALYSER/",
+    githubLink: "https://github.com/Shivangi-2008/RESUME-ANALYSER"
+  },
     
   {
     title: "Advanced Sorting Visualizer",
     category: "DSA",
     shortDesc: "Visualizes how different sorting algorithms work step by step.",
     tags: ["HTML", "CSS", "JavaScript"],
-    demoLink: "#",
-    githubLink: "#"
+    demoLink: "https://shivangi-2008.github.io/Advance-Sorting-Visualiser/",
+    githubLink: "https://github.com/Shivangi-2008/Advance-Sorting-Visualiser"
   },
   {
-    title: "Resume Builder",
-    category: "React",
-    shortDesc: "Lets users build and download a custom resume online.",
-    tags: ["React.js"],
-    demoLink: "#",
-    githubLink: "#"
-  }
+    title: "Portfolio",
+    category: "Frontend",
+    shortDesc: "My personal portfolio with works, resume and Tech i use Too",
+    tags: ["HTML", "CSS", "JavaScript"],
+    demoLink: "https://shivangi-2008.github.io/PORTFOLIO/",
+    githubLink: "https://github.com/Shivangi-2008/PORTFOLIO"
+  },
+  {
+    title: "TO-DO-LIST",
+    category: "Frontend",
+    shortDesc: "List of daily works",
+    tags: ["HTML", "CSS", "JavaScript"],
+    demoLink: "https://shivangi-2008.github.io/TO-DO-LIST/",
+    githubLink: "https://github.com/Shivangi-2008/TO-DO-LIST"
+  },
+  {
+    title: "Tic-Tac-Toe",
+    category: "Frontend",
+    shortDesc: "Game",
+    tags: ["HTML", "CSS", "JavaScript"],
+    demoLink: "https://shivangi-2008.github.io/Tic-Tac-Toe/",
+    githubLink: "https://github.com/Shivangi-2008/Tic-Tac-Toe"
+  },
 ];
 
 // ================================
